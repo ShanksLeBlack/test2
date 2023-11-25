@@ -1,0 +1,355 @@
+html {
+  background-color: #444444;
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+}
+
+.menutel{
+  display: none;
+}
+
+/*---------------------------------------------------EN TETE--------------------------------------------------------------------*/
+.entete {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 20px;
+  color: white;
+}
+
+span {
+  color: #449dc3;
+}
+
+/*----------------------------------------------------HEADER------------------------------------------------------------------------*/
+header {
+  height: 350px;
+  margin: 0;
+  background-color: #312f2f;
+  background-image: url(./backgroundheader.jpeg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 113px 0px -100px #449dc3;
+  margin-bottom: 3px;
+
+}
+
+.degrade {
+  background: linear-gradient(180deg, rgba(65, 63, 63, 0.634), rgba(255, 255, 255, 0));
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Shantell Sans", cursive;
+  color: #1f96e0;
+  text-shadow: 0px 5px 6px black;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-shadow: 0px 5px 6px black;
+}
+
+.enbas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: white;
+  margin-bottom: 0%;
+  font-family: "Nosifer", sans-serif;
+  font-size: 2em;
+  text-shadow: 0px 6px 6px #449dc3;
+}
+
+.soustitre {
+  color: white;
+  margin-top: 0%;
+  text-shadow: 0px 1px 6px black;
+}
+
+button {
+  width: 70%;
+  height: 40px;
+  background-color: #449dc3;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+
+/*-------------------------------------------------------MAIN----------------------------------------------------------------------*/
+main {
+  background-color: #312f2f;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.reservez {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.size {
+  height: 50px;
+  width: 50px;
+}
+
+p {
+  color: white;
+}
+
+.modepaiement {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: last baseline;
+  margin-top: 8%;
+  margin-left: 6%;
+  gap: 1%;
+}
+
+.espece {
+  color: #449dc3;
+}
+
+.montant {
+  color: #8c8989;
+}
+
+/*------------------------------------------------------------FOOTER--------------------------------------------------------------*/
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+.resaux {
+  height: 30px;
+  width: 30x;
+  margin-top: 80%;
+}
+
+/*----------------------------------------------------RESPONSIVE-------------------------------------------------------------------*/
+@media screen and (max-width: 1000px) {
+  body {
+    margin: 0;
+    width: 100%;
+  }
+
+  /*----------------------------------------------------HEADER------------------------------------------------------------------------*/
+  h2 {
+    color: white;
+    margin-bottom: 0%;
+    font-family: "Nosifer", sans-serif;
+    font-size: 1.5em;
+    text-shadow: 0px 6px 6px #449dc3;
+    text-align: center;
+  }
+
+  /*----------------------------------------------------MAIN---------------------------------------------------------------------------*/
+  main {
+    background-color: #312f2f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .reservez {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+}
+/*------------------------------------------------maxwidth420---------------------------------------------------------------------*/
+@media screen and (max-width: 420px) {
+  .entete {
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    font-size: smaller;
+    position: absolute;
+  }
+
+  /*------------------------------------------------HEADER------------------------------------------------------------------------*/
+  header {
+    height: 200px;
+    margin: 0;
+    background-color: #312f2f;
+    background-image: url(./backgroundheader.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 113px 0px -100px #449dc3;
+    margin-bottom: 3px;
+  }
+
+  .degrade {
+    background: linear-gradient(180deg, rgba(65, 63, 63, 0.634), rgba(255, 255, 255, 0));
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Shantell Sans", cursive;
+    color: #1f96e0;
+    text-shadow: 0px 5px 6px black;
+    font-size: medium;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: small;
+    display:none;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 5px 6px black;
+  }
+
+  h2 {
+    color: white;
+    margin-bottom: 0%;
+    font-family: "Nosifer", sans-serif;
+    font-size: 1.05em;
+    text-shadow: 0px 6px 6px #449dc3;
+  }
+
+  .soustitre {
+    color: white;
+    margin-top: 0%;
+    text-shadow: 0px 1px 6px black;
+    font-size: smaller;
+  }
+
+  .menutel{
+    
+    position: sticky;
+    top: 70%; left:80%;
+    height: 50px;
+    width: 50px;
+    display: block;
+  }
+
+
+  /*-------------------------------------------------------MAIN----------------------------------------------------------------------*/
+  main {
+    background-color: #312f2f;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .reservez {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .modepaiement {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: last baseline;
+    margin-top: 8%;
+    margin-left: 6%;
+    gap: 1%;
+    font-size: small;
+  }
+
+  /*------------------------------------------------------------FOOTER--------------------------------------------------------------*/
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50px;
+  }
+
+  .resaux {
+    height: 30px;
+    width: 30x;
+    margin-top: 80%;
+  }
+}
+/*---------------------------------------------------maxwidth345------------------------------------------------------------------*/
+@media screen and (max-width: 345px) {
+  h2 {
+    color: white;
+    margin-bottom: 0%;
+    font-family: "Nosifer", sans-serif;
+    font-size: 1em;
+    text-shadow: 0px 6px 6px #449dc3;
+    text-align: center;
+  }
+
+  .soustitre {
+    color: white;
+    margin-top: 0%;
+    text-shadow: 0px 1px 6px black;
+    font-size: x-small;
+  }
+
+  /*-----------------------------------------------------MAIN-------------------------------------------------------------------------*/
+  .modepaiement {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: last baseline;
+    margin-top: 8%;
+    margin-left: 6%;
+    gap: 1%;
+    font-size: x-small;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */

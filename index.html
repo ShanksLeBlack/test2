@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <script src="javascript.js" defer></script>
 </head>
 <body>
     <p class="entete">Contacter nous au <span>0696 23 45 74</span> ou <span>0596 12 13 24</span></p>
@@ -29,7 +30,7 @@
 
 
             <nav class="navigation">
-                <a href="">Acceuil</a>
+                <a id="facebook" href="" class="">Acceuil facebook</a>
                 <a href="">Prestation</a>
                 <a href="">Réservation</a>
                 <a href="">Présentation</a>
@@ -52,7 +53,7 @@
             <div class="icon">
                 <img src="./taxi.svg" alt="taxi" class="size">
                 <p><span>Taxi Conventionné</span><br>Cras mattis consectetur<br>purus sit</p>
-                <button>RESERVEZ</button>
+                <button onclick="redirigerVersConnexion()">RESERVEZ</button>
             </div>
         
             <div class="icon">
@@ -79,6 +80,7 @@
             <p>MODE DE PAIEMENTS,ACCEPTÉS DANS LES VÉHICULES<br><span class="espece">Èspèces-Carte Bleue et AMEX</span>
             <br><span class="montant">le montant minimum pour la carte est de 1€</span></p>
         </div>
+
     </main>
     <footer>
         <a href="https://www.facebook.com/"><img src="./facebook.svg" alt="facebook" class="resaux"></a>
@@ -87,5 +89,7 @@
         <a href="https://web.telegram.org/a/"><img src="./telegram.svg" alt="telegram" class="resaux"></a>
     </footer>
     
+   
+
 </body>
 </html>

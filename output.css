@@ -44,6 +44,13 @@ header {
 
 }
 
+.stringBleu{
+color: #1f96e0;
+}
+.stringGrand{
+  font-size: 3em;
+}
+
 .degrade {
   background: linear-gradient(180deg, rgba(65, 63, 63, 0.634), rgba(255, 255, 255, 0));
 }
@@ -375,5 +382,6 @@ footer {
     font-size: x-small;
   }
 }
+
 
 /*# sourceMappingURL=output.css.map */
